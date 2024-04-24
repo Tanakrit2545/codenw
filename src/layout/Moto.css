@@ -1,0 +1,446 @@
+/* MotorcyclesUser.css */
+.navbar-container {
+    padding-top: 0px; /* Adjust as needed */
+  }
+  
+  /* .navbar {
+   
+  }
+   */
+  .container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .filters {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .motorcycles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .motorcycle {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .pagination {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Add more styles as needed */
+  /* styles.css */
+.pagination-button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button {
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+ 
+}
+
+.next-button {
+  background-color: #FCF000;
+  color: white;
+  border-radius: 20px;
+}
+
+/* styles.css */
+.filters {
+  margin-bottom: 20px;
+}
+
+.filter-input {
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.filter-select {
+  padding: 8px;
+}
+
+/* Assuming Moto.css */
+.cart {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cart h3 {
+  margin-bottom: 10px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  margin-bottom: 5px;
+}
+
+/* Assuming Moto.css */
+.cart {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cart h3 {
+  margin-bottom: 10px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 250px; /* Adjust size as needed */
+  margin-right: 10px;
+}
+
+.cart-item-details p {
+  margin: 0;
+}
+
+/* .cart-item-details.bold-text {
+  font-weight: bold;
+}
+
+.bold-text {
+  font-weight: bold;
+} */
+
+/* .cart-item-details {
+  margin-left: 10px; 
+}
+
+.cart-item-details p {
+  margin-bottom: 5px; 
+}
+
+.cart-item-details p:first-child {
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item-image {
+  width: 250px; 
+  height: auto;
+  margin-right: 10px;
+}
+
+.cart-item-details p {
+  margin: 5px 0;
+}
+
+.cart-item-buttons button {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.refresh-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  background-color: #d32f2f;
+} */
+
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item-image {
+  width: 250px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.cart-item-details p {
+  margin: 5px 0;
+}
+
+.cart-item-buttons button {
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.cart-item-buttons button:hover {
+  opacity: 0.8;
+}
+
+.increment-button {
+  background-color: #00ff08; /* Green */
+  color: white;
+}
+
+.decrement-button {
+  background-color: #9e9e9e; /* Gray */
+  color: white;
+}
+
+.remove-button {
+  background-color: #ff1100; /* Red */
+  color: white;
+}
+
+
+.cart-item-buttons button:hover {
+  background-color: #d32f2f;
+}
+
+.refresh-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #ddff00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  background-color: #9c9c00;
+}
+
+/* contactus */
+.contact-container {
+  background-color: #f9fafb;
+  padding-top: 1px; /* Adjust as needed */
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-title {
+  font-size: 36px;
+  color: #dc2626;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input,
+.contact-textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #b91c1c;
+}
+
+/* .available {
+  color: green;
+}
+
+.not-available {
+  color: red;
+} */
+
+
+.notification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #11ff00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+.contact-button {
+  background-color: rgb(254, 254, 0); /* Set background color to yellow */
+  color: rgb(255, 255, 255); /* Set text color to white */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 5px; /* Add border radius */
+}
+
+.contact-button:hover {
+  background-color: #ffaa00; /* Change background color on hover */
+}
+
+
+/* aboutus */
+.background-containerA {
+  background-color: #000000dc; /* Set background color */
+  padding: 20px; /* Add padding */
+}
+
+.text-animation-container {
+  margin-bottom: 20px; /* Add margin to bottom */
+}
+
+.text-animation-container p {
+  font-size: 18px; /* Set font size */
+}
+
+/* Moto.css */
+
+/* Style for car container */
+.car-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Display 4 columns */
+  gap: 20px; /* Spacing between cars */
+  padding: 20px;
+}
+
+/* Style for car card */
+.car-card {
+  width: 200%; /* Adjust size as needed */
+  height: 140;
+  position: relative;
+}
+
+/* Style for individual car */
+/* .car-item {
+  width: 100%;
+  height: auto;
+} */
+
+.custom-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* .price-tag {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Moto.css */
+/* Add your existing styles here */
+
+/* New styles for car information */
+.car-info {
+  position: absolute;
+  top: 70%;
+  right: 120px;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.car-info h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #f9fafb;
+}
+
+.car-info p {
+  font-size: 26px;
+  margin-bottom: 24px;
+  color: #f9fafb;
+}
+
+.text-spacing {
+  margin-bottom: 20px; /* ระยะห่างด้านล่างของข้อความ */
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #2a2a2a; /* เปลี่ยนสีพื้นหลังของ Navbar ตามต้องการ */
+  color: rgb(0, 0, 0); /* เปลี่ยนสีข้อความใน Navbar ตามต้องการ */
+}
+
+/* Navbar links styling */
+.navbar ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul.menu li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.navbar ul.menu li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0); /* เปลี่ยนสีข้อความลิงก์ใน Navbar ตามต้องการ */
+}
+
+.navbar ul.menu li a:hover {
+  color: #ffdd00; /* เปลี่ยนสีข้อความลิงก์เมื่อชี้เมาส์ hover ตามต้องการ */
+}
